@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:textAppearance="@style/footer"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/docs"
+        android:icon="@drawable/docs"
+        android:textAppearance="@style/footer"
+        android:title="@string/docs" />
+    <item
+        android:id="@+id/policy"
+        android:icon="@drawable/policy"
+        android:textAppearance="@style/footer"
+        android:title="@string/policy" />
+    <item
+        android:id="@+id/support"
+        android:icon="@drawable/support"
+        android:textAppearance="@style/footer"
+        android:title="@string/support" />
+</menu>

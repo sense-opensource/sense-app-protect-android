@@ -1,0 +1,74 @@
+import com.vanniktech.maven.publish.SonatypeHost
+
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android") version "1.8.22"
+    id("com.vanniktech.maven.publish") version "0.29.0"
+}
+
+group = "io.github.senseopensource"
+version = System.getenv("LIB_VERSION") ?: "0.0.6"
+
+android {
+    namespace = "io.github.senseopensource"
+    compileSdk = 34
+
+    defaultConfig {
+        minSdk = 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+}
+
+mavenPublishing {
+    coordinates("io.github.sense-opensource", "sense-device-identity", project.version.toString())
+
+    pom {
+        name.set("Sense")
+        description.set("Sense - Identify the Good from the Bad visitors")
+        url.set("https://www.getsense.co/")
+        inceptionYear.set("2025")
+
+        licenses {
+            license {
+                name.set("Apache License 2.0")
+                url.set("https://www.apache.org/licenses/LICENSE-2.0")
+            }
+        }
+
+        developers {
+            developer {
+                id.set("Sense")
+                name.set("Sense")
+                email.set("tech@getsense.co")
+            }
+        }
+
+        scm {
+            url.set("https://github.com/tech-getsense")
+        }
+    }
+
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+    signAllPublications()
+}
+dependencies {
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'androidx.core:core-ktx:1.12.0'
+}
