@@ -23,8 +23,6 @@
 <p> This tracking method works even in the browser's incognito mode and is not cleared by flushing the cache, closing the browser or restarting the operating system, using a VPN or installing AdBlockers. Sense is available as SenseOS for every open source requirement and is different from Sense PRO, our extremely accurate and detailed product.</p>
 
 
-<p> Sense’s real time demo : https://pro.getsense.co/ </p>
-
 **Try visiting the same page in an incognito mode or switch on the VPN and
 notice how the visitor identifier remains the same in spite of all these changes!**
 
