@@ -1,8 +1,10 @@
-# sense-app-protect-android
-<h1 align="center">Understanding User Intent : Sense</h1>
-
-<p align="center" width="100%">
-<img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"> <img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"><img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
+<h1 align="center">Sense App Protect Android</h1>
+<p align="center" style="width:100%;">
+    <a href="https://github.com/sense-opensource/sense-app-protect-android/blob/main/LICENSE"><img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"></a> 
+    <img width="12.6%" src="https://badge-generator.vercel.app/api?icon=Github&label=Last%20Commit&status=May&color=6941C6"/> 
+    <a href="https://discord.gg/hzNHTpwt">
+        <img width="10%" src="https://badge-generator.vercel.app/api?icon=Discord&label=Discord&status=Live&color=6941C6"> 
+    </a>
 </p>
 
 <h2 align="center">Welcome to Sense’s open source repository</h2>
@@ -10,8 +12,6 @@
 <p align="center" width="100%">  
 <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
-
-<p style="text-align:center;"> 
   
 
 <p align="center"> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>                           
