@@ -1,30 +1,32 @@
-<h1 align="center">Sense App Protect - Android</h1>
+<h1>Sense App Protect - Android</h1>
 
-<p align="center" style="width:100%;">
-    <a href="https://github.com/sense-opensource/sense-device-identity-android/blob/main/LICENSE"><img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"></a> 
+<p style="width:100%;">
+    <a href="https://github.com/sense-opensource/sense-device-identity-android/blob/main/LICENSE">
+        <img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
+    </a> 
     <img width="12.6%" src="https://badge-generator.vercel.app/api?icon=Github&label=Last%20Commit&status=May&color=6941C6"/> 
     <a href="https://discord.gg/hzNHTpwt">
         <img width="10%" src="https://badge-generator.vercel.app/api?icon=Discord&label=Discord&status=Live&color=6941C6"> 
     </a>
 </p>
 
-<h2 align="center">Welcome to Sense's open source repository</h2>
+<h2>Welcome to Sense's open source repository</h2>
 
-<p align="center" style="text-align:center;width:100%;">  
+<p style="text-align:center;width:100%;">  
 <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
 
-<p align="center"> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>                           
-<p align="center"> This tracking method works even in the browser's incognito mode and is not cleared by flushing the cache, closing the browser or restarting the operating system, using a VPN or installing AdBlockers. Sense is available as SenseOS for every open source requirement and is different from Sense PRO, our extremely accurate and detailed product.</p>
+<p> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>                           
+<p> This tracking method works even in the browser's incognito mode and is not cleared by flushing the cache, closing the browser or restarting the operating system, using a VPN or installing AdBlockers. Sense is available as SenseOS for every open source requirement and is different from Sense PRO, our extremely accurate and detailed product.</p>
 
 
-<p align="center""> Sense’s real time demo : https://pro.getsense.co/
+<p"> Sense’s real time demo : https://pro.getsense.co/
 
 **Try visiting the same page in an incognito mode or switch on the VPN and
 notice how the visitor identifier remains the same in spite of all these changes!**
 
-<h3 align="center">Getting started with Sense </h3>
+<h3>Getting started with Sense </h3>
 
 
 ## Sense - Android SDK
