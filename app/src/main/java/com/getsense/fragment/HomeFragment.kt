@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.getsense.R
 import com.getsense.SharedViewModel
-import io.github.senseopensource.Sense
+import io.github.senseopensource.SenseOSProtect
 import io.github.senseopensource.SenseOSProtectConfig
 import org.json.JSONObject
 import android.content.Context
@@ -66,13 +66,13 @@ class HomeFragment : Fragment() {
                 )
 
             )
-            Sense.initSDK(activity, config)
+            SenseOSProtect.initSDK(activity, config)
             setUpUi()
         }
     }
     private fun setUpUi() {
         context?.let { ProgressDialogManager.show(it) }
-        Sense.getSenseDetails(object : Sense.SenseListener {
+        SenseOSProtect.getSenseDetails(object : SenseOSProtect.SenseOSProtectListener {
             override fun onSuccess(data: String) {
                 val jsonObject = JSONObject(data)
                 val jsonData = JSONObject(jsonObject.get("app_protect").toString())

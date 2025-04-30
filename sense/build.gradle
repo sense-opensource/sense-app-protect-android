@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "io.github.senseopensource"
-version = System.getenv("LIB_VERSION") ?: "0.0.6"
+version = System.getenv("LIB_VERSION") ?: "0.0.1"
 
 android {
     namespace = "io.github.senseopensource"
@@ -37,10 +37,10 @@ android {
 }
 
 mavenPublishing {
-    coordinates("io.github.sense-opensource", "sense-device-identity", project.version.toString())
+    coordinates("io.github.sense-opensource", "SenseOSProtect", project.version.toString())
 
     pom {
-        name.set("Sense")
+        name.set("SenseOS")
         description.set("Sense - Identify the Good from the Bad visitors")
         url.set("https://www.getsense.co/")
         inceptionYear.set("2025")
@@ -61,7 +61,7 @@ mavenPublishing {
         }
 
         scm {
-            url.set("https://github.com/tech-getsense")
+            url.set("https://github.com/sense-opensource")
         }
     }
 
