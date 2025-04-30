@@ -13,7 +13,7 @@
 <p align="center" style="text-align:center;width:100%;">  
 <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
-  
+
 
 <p align="center"> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>                           
 <p align="center"> This tracking method works even in the browser's incognito mode and is not cleared by flushing the cache, closing the browser or restarting the operating system, using a VPN or installing AdBlockers. Sense is available as SenseOS for every open source requirement and is different from Sense PRO, our extremely accurate and detailed product.</p>
@@ -21,8 +21,8 @@
 
 <p align="center""> Sense’s real time demo : https://pro.getsense.co/
 
-**Try visiting the same page in an incognito mode or switch on the VPN and 
-notice how the visitor identifier remains the same in spite of all these changes!** 
+**Try visiting the same page in an incognito mode or switch on the VPN and
+notice how the visitor identifier remains the same in spite of all these changes!**
 
 <h3 align="center">Getting started with Sense </h3>
 
@@ -136,32 +136,32 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-<h4 style="text-align:center;">Plug and play, in just 3 steps</h3>  
+<h4 style="text-align:center;">Plug and play, in just 3 steps</h3>
 
 1️⃣ Visit the Git hub repository for the desired function : Validate your desired repository  
 2️⃣ Download the code as a ZIP file : Host/clone the code in your local system or website  
-3️⃣ Run the installer : Start testing the accuracy of your desired metrics 
+3️⃣ Run the installer : Start testing the accuracy of your desired metrics
 
-#### With Sense, you can  
+#### With Sense, you can
 
 ✅ Predict user intent : Identify the good from the bad visitors with precision  
 ✅ Create user identities : Tokenise events with a particular user and device  
 ✅ Custom risk signals : Developer specific scripts that perform unique functions  
 ✅ Protect against Identity spoofing : Prevent users from impersonation  
-✅ Stop device or browser manipulation : Detect user behaviour anomalies 
+✅ Stop device or browser manipulation : Detect user behaviour anomalies
 
-### Resources 
+### Resources
 
-#### MIT license : 
+#### MIT license :
 
 Sense OS is available under the <a href="https://github.com/sense-opensource/sense-device-identity-android/blob/main/LICENSE"> MIT license </a>
 
-#### Contributors code of conduct : 
+#### Contributors code of conduct :
 
 Thank you for your interest in contributing to this project! We welcome all contributions and are excited to have you join our community. Please read these <a href="https://github.com/sense-opensource/sense-device-identity-android/blob/main/code_of_conduct.md"> Code of conduct </a> to ensure a smooth collaboration.
 
-#### Where you can get support :     
-![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)       product@getsense.co 
+#### Where you can get support :
+![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)       product@getsense.co
 
 Public Support:
 
