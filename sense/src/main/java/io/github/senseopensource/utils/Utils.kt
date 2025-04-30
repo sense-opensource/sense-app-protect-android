@@ -1,5 +1,4 @@
-package co.getsense.android.utils
-
+package io.github.senseopensource.utils
 import android.annotation.SuppressLint
 import android.app.usage.UsageStatsManager
 import android.content.Context

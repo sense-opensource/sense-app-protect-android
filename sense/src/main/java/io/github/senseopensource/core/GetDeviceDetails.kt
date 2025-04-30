@@ -1,16 +1,16 @@
 package io.github.senseopensource.core
 import android.app.Activity
 import android.os.Build
-import co.getsense.android.utils.isEmulator
-import co.getsense.android.utils.detectVirtualDisplays
-import co.getsense.android.utils.getInstalledApps
-import co.getsense.android.utils.getSimDetails
-import co.getsense.android.utils.isAppCloned
-import co.getsense.android.utils.isDeviceRooted
-import co.getsense.android.utils.isFactoryResetDetected
-import co.getsense.android.utils.isFridaDetected
-import co.getsense.android.utils.isVpnEnabled
-import co.getsense.android.utils.unknownApps
+import io.github.senseopensource.utils.isEmulator
+import io.github.senseopensource.utils.detectVirtualDisplays
+import io.github.senseopensource.utils.getInstalledApps
+import io.github.senseopensource.utils.getSimDetails
+import io.github.senseopensource.utils.isAppCloned
+import io.github.senseopensource.utils.isDeviceRooted
+import io.github.senseopensource.utils.isFactoryResetDetected
+import io.github.senseopensource.utils.isFridaDetected
+import io.github.senseopensource.utils.isVpnEnabled
+import io.github.senseopensource.utils.unknownApps
 
 internal fun getDetails(activity: Activity, packageList: List<Map<String, String>>): MutableMap<String, Any> {
     val simDetails = mapOf(
