@@ -16,6 +16,19 @@
 <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
+### 🛡️ Device Integrity Checks
+
+![Frida](https://img.shields.io/badge/Frida-blue)
+![Rooted](https://img.shields.io/badge/Rooted-green)
+![Emulator](https://img.shields.io/badge/Emulator-orange)
+![Installed Apps](https://img.shields.io/badge/Installed_Apps-yellow)
+![Cloned Apps](https://img.shields.io/badge/Cloned_Apps-red)
+![Unknown Apps](https://img.shields.io/badge/Unknown_Apps-purple)
+![VPN](https://img.shields.io/badge/VPN-lightblue)
+![SIM](https://img.shields.io/badge/SIM-lightgreen)
+![Factory Reset](https://img.shields.io/badge/Factory_Reset-darkgreen)
+![Remote Control](https://img.shields.io/badge/Remote_Control-darkblue)
+
 <p> Sense is a client side library that enables you to identify users by pinpointing their hardware and software characteristics. This is done by computing a token that stays consistent in spite of any manipulation.</p>
 
 <h3>Getting started with Sense </h3>
